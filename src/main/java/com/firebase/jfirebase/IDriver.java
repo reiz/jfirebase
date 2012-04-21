@@ -18,4 +18,8 @@ public interface IDriver {
 
     boolean delete(String uri);
 
+    void setChannel(String channel);
+
+    String getKey();
+
 }
