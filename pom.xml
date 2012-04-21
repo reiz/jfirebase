@@ -5,6 +5,37 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>JFirebase</name>
+  <description>Java Driver for JSON Cloud Storage Firebase. This a wrapper for the Firebase REST API</description>
+  <organization>
+    <name>Firebase</name>
+    <url>http://www.firebase.com/</url>
+    </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/reiz/jfirebase</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/reiz/jfirebase/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>reiz</id>
+      <name>Robert Reiz</name>
+      <roles>
+	<role>Coder</role>
+      </roles>
+      <url>http://robert-reiz.com</url>
+      <organization>VersionEye GmbH</organization>
+      <organizationUrl>http://versioneye.com</organizationUrl>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
 
     <dependencies>
         <dependency>
@@ -24,16 +55,16 @@
             <version>4.1.3</version>
         </dependency>
         <!-- *** JSON Mapper *** -->
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-core-lgpl</artifactId>
-			<version>1.9.6</version>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-lgpl</artifactId>
-			<version>1.9.6</version>
-		</dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-lgpl</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-lgpl</artifactId>
+            <version>1.9.6</version>
+        </dependency>
     </dependencies>
 
 </project>
