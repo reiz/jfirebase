@@ -5,7 +5,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>JFirebase</name>
-  <description>Java Driver for JSON Cloud Storage Firebase. This a wrapper for the Firebase REST API</description>
+  <description>Java Driver for JSON Cloud Storage Firebase. This is a wrapper for the Firebase REST API</description>
   <organization>
     <name>Firebase</name>
     <url>http://www.firebase.com/</url>
