@@ -21,6 +21,7 @@ public class DriverTest {
         data.put("name", "rob");
         data.put("user", "robi");
         IDriver driver = new Driver();
+        driver.setChannel("YOUR_CHANNEL");
         boolean responseCode = driver.write(data);
         assert responseCode;
     }

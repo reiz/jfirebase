@@ -3,16 +3,7 @@ jfirebase
 
 Java Driver for Firebase. Wrapper for the Firebase REST API. 
 
-API
+API and Examples
 ---------
 
-This lib. contains 3 methods at this time. 
-
-> 	boolean write(Map<String, String> map);
->
->   Reader read(String uri);
->
->   boolean delete(String uri);
-
-
-
+Check out this blog post for more infos: [Java Driver for Firebase](http://robert-reiz.com/2012/04/22/java-driver-for-firebase/).
