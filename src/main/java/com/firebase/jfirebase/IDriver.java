@@ -20,6 +20,6 @@ public interface IDriver {
 
     void setChannel(String channel);
 
-    String setKey(String key);
+    void setKey(String key);
 
 }
